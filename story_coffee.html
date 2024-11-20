@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>커피이야기</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/variable.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/scroll.css">
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <script src="./js/header.js"></script>
+    <script src="./js/story_coffee.js"></script>
+    <!-- swiper js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <header class="pc">
+        <div class="commonFrame">
+            <h1 class="logo">
+                <a href="./index.html">
+                    <img src="./img/logo(1).svg" alt="하이데이커피하우스_로고">
+                </a>
+            </h1>
+            <ul class="gnb">
+                <li>
+                    <a href="#">하이데이 커피하우스 소개</a>
+                    <ul>
+                        <li><a href="#">하이데이 커피하우스</a></li>
+                        <li><a href="#">매장</a></li>
+                        <li><a href="#">브랜드 브로슈어</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./story_coffee.html">메뉴 이야기</a>
+                    <ul>
+                        <li><a href="./story_coffee.html">커피이야기</a></li>
+                        <li><a href="#">디저트이야기</a></li>
+                        <li><a href="#">델리이야기</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">브랜드 지원</a>
+                    <ul>
+                        <li><a href="#">하이데이 페어링 플랜트</a></li>
+                        <li><a href="#">하이데이 디저트 플랜트</a></li>
+                        <li><a href="#">C&D센터</a></li>
+                        <li><a href="#">SEP센터</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">가맹점 창업안내</a>
+                    <ul>
+                        <li><a href="#">가맹점 개설안내</a></li>
+                        <li><a href="#">창업 설명회</a></li>
+                        <li><a href="#">온라인 창업 상담신청</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">가맹점 전용 금융 상품</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">새소식 & 공지</a>
+                    <ul>
+                        <li><a href="#">공지사항</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    </header>
+    <header class="header_mo mo">
+        <h1 class="logo_mo">
+            <a href="./index.html">
+                <img src="./img/logo(1).svg" alt="하이데이커피하우스_로고">
+            </a>
+        </h1>
+        <span id="btn_gnb">
+            <img src="./img/icn_menu.svg" alt="히든 메뉴 열기">
+        </span>
+        <div class="hidden_gnb">
+            <div class="hidden_gnb_top">
+                <h1 class="logo_mo">
+                    <a href="./index.html">
+                        <img src="./img/logo(1).svg" alt="하이데이커피하우스_로고">
+                    </a>
+                </h1>
+                <span id="btn_close_gnb">
+                    <img src="./img/icn_close.svg" alt="히든 메뉴 닫기">
+                </span>
+            </div>
+            <section class="gnb_mo_wrap">
+                <ul class="gnb_mo">
+                    <li>
+                        <a href="#">하이데이 커피하우스 소개</a>
+                        <ul>
+                            <li><a href="#">하이데이 커피하우스</a></li>
+                            <li><a href="#">매장</a></li>
+                            <li><a href="#">브랜드 브로슈어</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./story_coffee.html">메뉴 이야기</a>
+                        <ul>
+                            <li><a href="./story_coffee.html">커피이야기</a></li>
+                            <li><a href="#">디저트이야기</a></li>
+                            <li><a href="#">델리이야기</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">브랜드 지원</a>
+                        <ul>
+                            <li><a href="#">하이데이 페어링 플랜트</a></li>
+                            <li><a href="#">하이데이 디저트 플랜트</a></li>
+                            <li><a href="#">C&D센터</a></li>
+                            <li><a href="#">SEP센터</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">가맹점 창업안내</a>
+                        <ul>
+                            <li><a href="#">가맹점 개설안내</a></li>
+                            <li><a href="#">창업 설명회</a></li>
+                            <li><a href="#">온라인 창업 상담신청</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">가맹점 전용 금융 상품</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">새소식 & 공지</a>
+                        <ul>
+                            <li><a href="#">공지사항</a></li>
+                        </ul>
+                    </li>
+    
+                </ul>
+            </section>
+            <div class="hidden_gnb_bottom">
+                <a href="#" class="btn_common">창업안내 바로가기</a>
+                <ul class="sns">
+                    <li><a href="#" target="_blank"><img src="./img/sns_youtube.svg" alt="유튜브"></a></li>
+                    <li><a href="#" target="_blank"><img src="./img/sns_insta.svg" alt="인스타그램"></a></li>
+                    <li><a href="#" target="_blank"><img src="./img/sns_facebook.svg" alt="페이스북"></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h3 class="commonFrame ml">
+            커피이야기
+        </h3>
+        <div class="commonFrame desc3">
+            <div class="txt">
+                <h2>
+                    <strong>HI-DAY</strong><br>
+                    COFFEE STORY
+                </h2>
+                <p>하이데이 커피는 한 잔의 커피에 담긴 따뜻한 이야기.<br>
+                    햇살을 닮은 원두의 향기와 부드러운 맛이 어우러져, <br>
+                    일상의 쉼표가 되는 순간을 선사합니다.
+                </p>
+                <p>하이데이 커피는 특별한 순간을 위한 스페셜 원두로 완성됩니다. <br>
+                    엄선된 원두가 선사하는 깊고 풍부한 향은 입안을 가득 채우며 따뜻한 여운을 남기죠. <br>
+                    한 잔의 커피가 주는 여유와 작은 행복을 위해, 하이데이는 늘 최상의 맛을 추구합니다. <br>
+                    커피 한 모금으로 느껴지는 진한 감동, 그 특별함을 경험해보세요. <br>
+                    하이데이에서 당신의 일상을 더욱 빛나게 할 커피를 준비했습니다.
+                </p>
+            </div>
+            <figure>
+                <img src="./img/coffee_story1.jpg" alt="하이데이커피 커피스토리">
+            </figure>
+        </div>
+        <h3 class="commonFrame ml">시그니처 커피</h3>
+
+        <div class="commonFrame station5 swiper">
+            <ul class="train swiper-wrapper">
+                <li class="swiper-slide">
+                    <figure>
+                        <img src="./img/story_coffeemenu1.jpg" alt="커피스토리_골든데이 브루 이미지">
+                    </figure>
+                    <h4>
+                        골든데이 브루<br>
+                        <strong>(Golden Day Brew)</strong>
+                    </h4>
+                    <p>
+                        에티오피아 예가체프 원두로 내린 핸드드립 커피로, 꽃향기와 꿀의 달콤함, 은은한 과일 산미를 느낄 수 있습니다.
+                    </p>
+                    <p class="enp">
+                        따뜻한 금빛 아침을 떠올리게 하는 부드럽고 섬세한 맛으로 하루를 시작하세요.
+                    </p>
+                </li>
+                <li class="swiper-slide">
+                    <figure>
+                        <img src="./img/story_coffeemenu2.jpg" alt="커피스토리_시그니처카라멜 라떼 이미지">
+                    </figure>
+                    <h4>
+                        시그니처 카라멜 크림 라떼<br>
+                        <strong>(Signature Caramel Cream Latte)</strong>
+                    </h4>
+                    <p>
+                        진한 에스프레소와 부드러운 우유에
+                        풍부한 카라멜 시럽이 더해져 달콤하고 
+                       고소한 맛을 선사합니다. 
+                       음료 위에 휘핑크림과 카라멜 드리즐을 올려 
+                       더욱 풍성한 맛을 즐길 수 있습니다.
+                    </p>
+                    <p class="enp">
+                        하이데이의 시그니처로 더욱 풍부해지는
+                        입안의 오케스트라 향연를 느껴보세요.
+                    </p>
+                </li>
+                <li class="swiper-slide">
+                    <figure>
+                        <img src="./img/story_coffeemenu3.jpg" alt="커피스토리_스페니쉬 라떼 이미지">
+                    </figure>
+                    <h4>
+                        스페니쉬 라떼<br>
+                        <strong>(Spanish Latte)</strong>
+                    </h4>
+                    <p>
+                        초콜리티한 향을 머금은 에스프레소와 부드러운 우유에 달콤한 연유가 조화롭게 어우러진 라떼로 고급스러운 비주얼과 맛을 느낄 수 있습니다. 
+                    </p>
+                    <p class="enp">
+                        달콤한 만남이 한층 더 부드럽고 포근한 연유의 조화롭게 해
+                        지친한 하루를 기분좋게 만들어 줍니다.</p>
+                </li>
+                <li class="swiper-slide">
+                    <figure>
+                        <img src="./img/story_coffeemenu3.jpg" alt="커피스토리_스페니쉬 라떼 이미지">
+                    </figure>
+                    <h4>
+                        스페니쉬 라떼<br>
+                        <strong>(Spanish Latte)</strong>
+                    </h4>
+                    <p>
+                        초콜리티한 향을 머금은 에스프레소와 부드러운 우유에 달콤한 연유가 조화롭게 어우러진 라떼로 고급스러운 비주얼과 맛을 느낄 수 있습니다. 
+                    </p>
+                    <p class="enp">
+                        달콤한 만남이 한층 더 부드럽고 포근한 연유의 조화롭게 해
+                        지친한 하루를 기분좋게 만들어 줍니다.</p>
+                </li>
+                <li class="swiper-slide">
+                    <figure>
+                        <img src="./img/story_coffeemenu2.jpg" alt="커피스토리_시그니처카라멜 라떼 이미지">
+                    </figure>
+                    <h4>
+                        시그니처 카라멜 크림 라떼<br>
+                        <strong>(Signature Caramel Cream Latte)</strong>
+                    </h4>
+                    <p>
+                        진한 에스프레소와 부드러운 우유에
+                        풍부한 카라멜 시럽이 더해져 달콤하고 
+                       고소한 맛을 선사합니다. 
+                       음료 위에 휘핑크림과 카라멜 드리즐을 올려 
+                       더욱 풍성한 맛을 즐길 수 있습니다.
+                    </p>
+                    <p class="enp">
+                        하이데이의 시그니처로 더욱 풍부해지는
+                        입안의 오케스트라 향연를 느껴보세요.
+                    </p>
+                </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="commonFrame">
+            <section class="foot1">
+                <ul class="foot_menu">
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">위치기반서비스 이용약관</a></li>
+                    <li><a href="#">이메일 무단수집거부</a></li>
+                </ul>
+                <dl class="info">
+                    <dt>대표이사 : </dt>
+                    <dd>김정민</dd>
+                    <dt>개인정보보호책임자 : </dt>
+                    <dd>김정민</dd>
+                    <dt>사업자 등록번호 :</dt>
+                    <dd>310-24-50254</dd>
+                    <dt>통신판매업종신고종 : </dt>
+                    <dd>제 2018-테스트-0707호</dd>
+                    <dt>대표이메일 : </dt>
+                    <dd>hidaycoffeeh@gmail.com</dd>
+                </dl>
+                <div class="copy">Copyright (c) 2024 HIDAY COFFEE HOUSE Co. LTD All Rights Reserved.</div>
+            </section>
+            <section class="foot2">
+                <ul class="foot_sns">
+                    <li><a href="#"><img src="./img/sns_youtube.svg" alt="유튜브"></a></li>
+                    <li><a href="#"><img src="./img/sns_insta.svg" alt="인스타그램"></a></li>
+                    <li><a href="#"><img src="./img/sns_facebook.svg" alt="페이스북"></a></li>
+                </ul>
+                <h1 class="logo_foot">
+                    <a href="./index.html">
+                        <img src="./img/logo(2).svg" alt="하단로고">
+                    </a>
+                </h1>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
