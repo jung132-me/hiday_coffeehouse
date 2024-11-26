@@ -23,7 +23,7 @@
 
 /* 핸들 호버 시 색상 변경 */
 ::-webkit-scrollbar-thumb:hover {
-    background: #83c0f1 ; /* 핸들 호버 색상 */
+    background: #ffdbb6 ; /* 핸들 호버 색상 */
 }
 
 /* 가로 스크롤바의 핸들 */

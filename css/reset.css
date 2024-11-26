@@ -25,3 +25,19 @@ img,video{
 input{
     outline: 0;
 }
+table{
+    border-collapse: collapse;
+}
+textarea,input,option{
+    outline: 0;
+}
+form,label,input,select,option,textarea{
+    font-family: inherit;
+    font-weight: inherit;
+}
+input[type="submit"]{
+    background-color: transparent;
+}
+input[type="reset"]{
+    background-color: transparent;
+}
